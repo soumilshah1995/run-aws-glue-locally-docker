@@ -5,20 +5,20 @@
 
 # Steps 
 
-# Step 1: INstall AWS CLI 
+### Step 1: Install AWS CLI 
 Link : https://aws.amazon.com/cli/
 
-# Step 2: Create a profile dev
+### Step 2: Create a profile dev
 ```
 aws configure --profile dev
 ```
 ![image](https://github.com/soumilshah1995/run-aws-glue-locally-docker/assets/39345855/748abc5e-1a71-4218-a578-9cff1b8312ef)
 
-# Step 3: Pull Docker Image 
+### Step 3: Pull Docker Image 
 ```
 docker pull amazon/aws-glue-libs:glue_libs_4.0.0_image_01
 ```
-# Step 4: Pull Docker Image 
+### Step 4: Pull Docker Image 
 ```
 
 docker run -it `
@@ -33,9 +33,9 @@ docker run -it `
     --name glue_jupyter_lab amazon/aws-glue-libs:glue_libs_4.0.0_image_01 /home/glue_user/jupyter/jupyter_start.sh
 
 ```
-# Step 4: Head to http://localhost:8888/
+###  Step 4: Head to http://localhost:8888/
 
-# Step 5: Execute your Glue Code in Jupyter Notebook
+###  Step 5: Execute your Glue Code in Jupyter Notebook
 ```
 
 try:
