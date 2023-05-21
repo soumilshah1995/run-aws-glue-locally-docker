@@ -1,4 +1,4 @@
-# run-aws-glue-locally-docker
+
 
 ![1](https://github.com/soumilshah1995/run-aws-glue-locally-docker/assets/39345855/b8c77bad-1bcf-4216-b272-ac07db70dfae)
 
@@ -74,4 +74,8 @@ glue_df.toDF().show(3)
 ```
 
 #### If you Enjoyed tutoirals please make sure to give a Star  on Github 
+
+References 
+* https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-libraries.html
+
 
