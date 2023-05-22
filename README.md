@@ -2,6 +2,9 @@
 
 ![1](https://github.com/soumilshah1995/run-aws-glue-locally-docker/assets/39345855/b8c77bad-1bcf-4216-b272-ac07db70dfae)
 
+# Video Guide 
+* https://www.youtube.com/watch?v=sk48a8B8Grs
+
 
 # Steps 
 
